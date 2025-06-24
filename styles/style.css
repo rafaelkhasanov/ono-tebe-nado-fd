@@ -33,6 +33,7 @@
 .header-menu-link {
     text-decoration: none;
     text-transform: lowercase;
+    letter-spacing: 0;
     display: block;
     border-bottom: 1px solid #000;
 }
@@ -123,7 +124,9 @@
 
 .cover-description-text {
     text-transform: uppercase;
-    word-spacing: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+    word-spacing: 18px;
     color: #fff;
     z-index: 1;
 }
@@ -199,7 +202,7 @@ button {
     font-size: 22px;
     font-weight: bold;
     text-decoration-skip-ink: none;
-    line-height: 1.2;
+    line-height: 1.1;
     color: #fff;
 }
 
